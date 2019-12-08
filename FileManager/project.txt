@@ -1,0 +1,2 @@
+File Manager is a project developed in java which have view,edit,search,etc functionalities to edit file as well as folder.
+Encrypt and zip functionalities are going to be added.
