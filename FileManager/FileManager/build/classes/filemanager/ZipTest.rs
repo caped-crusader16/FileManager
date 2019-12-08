@@ -1,0 +1,10 @@
+Test.ZipDirectory
+Test.ZipFile
+filemanager.ZipFile
+Test.ZipMultipleFiles
+filemanager.UnzipFile
+filemanager.ZipDirectory
+filemanager.ZipTest
+Test.UnzipFile
+filemanager.ZipMultipleFiles
+Test.ZipTest
