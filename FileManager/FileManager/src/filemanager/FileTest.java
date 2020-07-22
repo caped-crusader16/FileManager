@@ -5,7 +5,7 @@ import java.io.File;
 public class FileTest {
     public static void main(String[] args) {
         try {
-            File file1 = new File("/Users/liushuheng/Desktop/./../Desktop/");
+            File file1 = new File("/Users/Parth/Desktop/./../Desktop/");
             System.out.println(file1.isDirectory());
             System.out.println(file1.getAbsolutePath());
             System.out.println(file1.getCanonicalPath());

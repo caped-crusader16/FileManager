@@ -16,7 +16,7 @@ import java.security.NoSuchAlgorithmException;
 /**
  * A utility class that encrypts or decrypts a file.
  *
- * @author www.codejava.net
+ * @author 
  */
 public class CryptoUtils {
     private static final String ALGORITHM = "AES";
@@ -54,10 +54,10 @@ public class CryptoUtils {
     }
 
     public static void main(String[] args) {
-        File toBeEncrypted = new File("/Users/liushuheng/Desktop/testFile1.txt");
-        File encrypted = new File("/Users/liushuheng/Desktop/testFile2.txt");
-        File toBeDecrypted = new File("/Users/liushuheng/Desktop/testFile3.txt");
-        File decrypted = new File("/Users/liushuheng/Desktop/testFile4.txt");
+        File toBeEncrypted = new File("/Users/Parth/Desktop/testFile1.txt");
+        File encrypted = new File("/Users/Parth/Desktop/testFile2.txt");
+        File toBeDecrypted = new File("/Users/Parth/Desktop/testFile3.txt");
+        File decrypted = new File("/Users/Parth/Desktop/testFile4.txt");
         try {
             // the key length MUST BE 16 bytes (or 128 bits)
             String key = "Mary has one cat";

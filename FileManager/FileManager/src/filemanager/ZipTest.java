@@ -118,8 +118,8 @@ class UnzipFile {
 @SuppressWarnings("Duplicates")
 public class ZipTest {
     public static void main(String[] a) throws Exception {
-        String original = new String("/Users/liushuheng/Desktop/tmp-folder");
-        String zipped = new String("/Users/liushuheng/Desktop/tmp-folder.zip");
+        String original = new String("/Users/Parth/Desktop/tmp-folder");
+        String zipped = new String("/Users/Parth/Desktop/tmp-folder.zip");
         String unzipped = original + " unzipped";
 
         zipFolder(original, zipped);

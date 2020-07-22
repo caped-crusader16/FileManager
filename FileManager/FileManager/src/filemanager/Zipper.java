@@ -9,8 +9,8 @@ import java.util.zip.ZipOutputStream;
 @SuppressWarnings("Duplicates")
 public class Zipper {
     public static void main(String[] a) throws Exception {
-        String original = new String("/Users/liushuheng/Desktop/tmp-folder");
-        String zipped = new String("/Users/liushuheng/Desktop/tmp-folder.zip");
+        String original = new String("/Users/Parth/Desktop/tmp-folder");
+        String zipped = new String("/Users/Parth/Desktop/tmp-folder.zip");
         String unzipped = original + " unzipped";
 
         zip(original, zipped);

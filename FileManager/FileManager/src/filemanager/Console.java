@@ -48,14 +48,14 @@ public class Console {
                     System.out.println("File Operation: " + str[0] + " - command not found");
             }
         }
-//        // TODO test splitCommand() method
+        // TODO test splitCommand() method
 //        String str = "00000 11111\\ 22222\\ 33333\\ 44444 00000 00000 55555\\ 66666 00000 00000";
 //        System.out.println(str);
 //        for (String segment : splitCommand(str)) {
 //            System.out.println(segment);
 //        }
 //
-//        // TODO test joinPath() method
+        // TODO test joinPath() method
 //        String[] strs = new String[]{"00000", "11111\\", "22222\\ "};
 //        System.out.println(joinPath(strs, 0, 3));
     }

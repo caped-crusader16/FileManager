@@ -60,7 +60,7 @@ public class FileInfo {
     public static void main(String[] args) {
         // TODO class test
         System.out.println(new FileInfo("name", "perm", "Date", true));
-        File f = new File("/Users/liushuheng/.vimrc");
+        File f = new File("/Users/Parth/.vimrc");
         FileInfo info = new FileInfo(f);
         System.out.println(info);
     }
